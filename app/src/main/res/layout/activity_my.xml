@@ -1,0 +1,25 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="#2196F3"
+    tools:context=".MyActivity">
+
+    <com.robsessions.donutprogressbar.DonutProgress
+        android:id="@+id/donut_progress"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        custom:donut_finished_color="#0066FF"
+        custom:donut_color_1="#0066FF"
+        custom:donut_color_2="#0066FF"
+        custom:donut_color_3="#0066FF"
+        custom:donut_color_4="#0066FF"
+        custom:donut_color_5="#0066FF"
+        custom:donut_finished_stroke_width="30dp"
+        custom:donut_show_text="false"
+        />
+
+</LinearLayout>
