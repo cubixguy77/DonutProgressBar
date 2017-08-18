@@ -5,21 +5,49 @@
     android:layout_height="match_parent"
     android:gravity="center"
     android:orientation="vertical"
-    android:background="#2196F3"
+    android:background="#2196f3"
     tools:context=".MyActivity">
 
     <com.robsessions.donutprogressbar.DonutProgress
         android:id="@+id/donut_progress"
         android:layout_width="200dp"
         android:layout_height="200dp"
-        custom:donut_finished_color="#0066FF"
-        custom:donut_color_1="#0066FF"
-        custom:donut_color_2="#0066FF"
-        custom:donut_color_3="#0066FF"
-        custom:donut_color_4="#0066FF"
-        custom:donut_color_5="#0066FF"
+        custom:donut_background_color="#2196f3"
         custom:donut_finished_stroke_width="30dp"
-        custom:donut_show_text="false"
+        custom:donut_text_color="#ffca28"
+        custom:donut_text_size="16sp"
+        />
+
+    <Button
+        android:id="@+id/start"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Start"
+        android:layout_marginTop="40dp"
+        />
+
+    <Button
+        android:id="@+id/increment"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Increment"
+        android:layout_marginTop="10dp"
+        />
+
+    <Button
+        android:id="@+id/decrement"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Decrement"
+        android:layout_marginTop="10dp"
+        />
+
+    <Button
+        android:id="@+id/collapse"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Collapse"
+        android:layout_marginTop="10dp"
         />
 
 </LinearLayout>
