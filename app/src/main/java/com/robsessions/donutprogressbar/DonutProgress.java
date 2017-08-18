@@ -412,7 +412,7 @@ public class DonutProgress extends View {
         bundle.putParcelable(INSTANCE_STATE, super.onSaveInstanceState());
         bundle.putInt(INSTANCE_TEXT_COLOR, getTextColor());
         bundle.putFloat(INSTANCE_TEXT_SIZE, getTextSize());
-        bundle.putFloat(INSTANCE_PROGRESS, getProgress());
+        bundle.putInt(INSTANCE_PROGRESS, getProgress());
         bundle.putFloat(INSTANCE_FINISHED_STROKE_WIDTH, getFinishedStrokeWidth());
         bundle.putFloat(INSTANCE_BACKGROUND_COLOR, color_background);
         bundle.putBoolean(INSTANCE_IS_GLOWING, isGlowing);
